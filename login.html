@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIT-WPU WEBSITE | LOGIN </title>
+    <link rel="shortcut icon" type="images" href="images/logo.jpg" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/> -->
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/loginstyle.css" />
+
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images\logowpu.png" /> MIT - WPU
+      </a>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="login.html">LOGIN / SIGNUP</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="center">
+      <div class="form">
+        <form action="login.php" method="post">
+          <br>
+          <div class="txt_field">
+            <label>Email ID:</label>
+            <input type="text" name="email" required>
+          </div>
+          <br>
+          <div class="txt_field">
+            <label>Password:</label>
+            <input type="password" name="password" required>
+          </div>
+          <br>
+          <div class="pass">Forgot password?</div>
+          <br>
+          <input type="submit" value="Login">
+          <br><br>
+          <div class="register_link"> Not a member? <a href="register.HTML"> Register </a></div>
+          <br>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
